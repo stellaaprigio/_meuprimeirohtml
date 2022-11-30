@@ -1,0 +1,87 @@
+<index.html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Html</title>
+</head>
+    <h1 id="Topo">Minha primeira página Web</h1>
+    <hr>
+<body>
+    <p><i><sup>*</sup>Neste curso aprendemos sobre a instalação e configuração de ambiente de desenvolvimento, funcionalidades e também como criar uma página web por meio do Html.</i></p><br>
+    <ul>
+        <li><a href="#conhecendo">Conhecendo o HTML</a></li><br>
+        <li><a href="#elementos">Elementos HTML e seus atributos</li></a><br>
+        <li><a href="#listas">Listas ordenadas e não ordenadas</a></li><br>
+        <li><a href="#links">Utilização de links</a></li>
+    </ul>
+    <br>
+    <h2 id="Conhecendo">Conhecendo o HTML</h2>
+        <p style="font-family:helvetica"><strong>HTML</strong>(Hyper Text Markup Language) consiste em uma linguangem de marcação padronizada para a criação de uma página web, composta por uma série de elementos que são estruturados pelo desenvolvedor, de modo que o navegador traduzirá e exibirá para o usuário a página legível e de fácil entedimento.</p>
+        <p style="font-family:helvetica">Com o HTML é possivél especificar para o navegador se o conteúdo que será exibido deverá ser traduzido como:</p><br>
+            <ul>
+                <li style="font-family:helvetica">paragrafos;</li>
+                <li style="font-family:helvetica">lista;</li>
+                <li style="font-family:helvetica">imagens/vídeos;</li>
+                <li style="font-family:helvetica">links;</li>
+                <li style="font-family:helvetica">formulários</li>
+                <li style="font-family:helvetica">etc.</li>
+            </ul>
+        <p style="font-family:helvetica">Para melhor estruturação do HTML e para tornar sua página mais dinamica para o usuário, podemos estilizá-lo via <i><sup>*</sup>CSS</i> e <i><sup>*</sup>JavaScript</i>.</p>
+        <br>
+        <a href="#Topo"> <small>Voltar</small></a>
+    <h2 id="elementos">Elementos HTMl e seus atributos</h2>
+        <p style="font-family:helvetica">Os elementos html são basicamente as tags iniciais utilizadas para orientar o navegador o que está sendo desenvolvido,semanticamente no html.</p>
+        <p style="font-family:helvetica">Como por exemplo: elementos de formatação de texto</p>
+            <ol>
+                <li style="font-family:helvetica">Negrito: <strong>Strong</strong>, <b>b</b>.</li>
+                <li style="font-family:helvetica">Itálico: <i>i</i>;</li>
+                <li style="font-family:helvetica">Marca texto: <mark>mark</mark>;</li>
+                <li style="font-family:helvetica">Sublinhado: <u>u</u> (underline).</li>
+            </ol>
+        <p style="font-family:helvetica">Lembrando que, as tags em sua maioria se iniciam e fecham e para o fechamento utilizamos a barra <b>(/)</b>. Algumas tags como <b><u>input</u></b> não possui tag de fechamento e a tag <b><u>img</u></b> possui auto fechamento, ou seja ela por si mesma já tem a barra no final da tag.</p>
+        <p style="font-family:helvetica">Já os atributos, são informções adicionais forncidas ao navegador sobre determinados elementos, esses atributos são inceridos sempre nas tags iniciais e normalmente em pares, sou seja o atributo a ser fornecido junto com o "tipo" desejado</p>
+        <p style="font-family:helvetica">Exemplos:</p> 
+            <ol>
+                <li style="font-family:helvetica">Na tag <b>input</b> temos os atributos <b>type</b> para inserirmos valores de tipos textuis, númericos, barras, botões, urls, e-mails, etc</li>
+                <li style="font-family:helvetica">Na tag <b>img</b>, podemos definir o src, ou seja o endereço de onde a imagem foi retirada, podendo ser o próprio navegador ou por meio de endereço web</li>
+                <li style="font-family:helvetica">Em algumas tags podemos utilizar os atributo <b>style</b> por comando CSS para estilizarmos fontes, cores, etc.</li><br>
+                <i><sup>*</sup>Obs.: Também podemos fazer a estilização de cores no Html sem ser via CSS, utilizando as tags especificas</i><br>
+            </ol> 
+        <p style="font-family:helvetica"> Para definirmos os atributos, seguimos o padrão: tag> atribui> = ""> fechamento da tag caso tenha fechamento</p>
+        <br>
+        <a href="#Topo"> <small>Voltar</small></a>
+    <h2 id="lista">Listas ordenadas e não ordenadas</h2>
+        <p style="font-family:helvetica">Para a criação de listas no html, utilizamos as tags <b>ol</b> para listas ordenadas que se caracteriza por meio de números (1,2,3,...) e <b>ul</b> que são as listas não ordenadas que são caracterizadas por marcadores (*, °, ...) variando de acordo com o navegador utilizado.</p>
+        <p style="font-family:helvetica">Exemplo:</p>
+        <p style="font-family:helvetica"><b>Lista ordenada:</b>
+            <ol>
+                <li>Banana</li>
+                <li>Morango</li>
+                <li>Maça</li>
+            </ol>    
+        <b>Lista não ordenada:</b>
+            <ul>
+                <li>Leite condensado</li>
+                <li>Chocolate</li>
+                <li>Creme de leite</li>
+            </ul>
+        </p>
+        <a href="#Topo"> <small>Voltar</small></a> 
+        <br>
+    <h2 id="links">Utilização de links</h2>
+        <p style="font-family:helvetica">Para inserirmos links na nossa página web, seja para navegabilidade, mostrar o site de pesquisa ou indicação de outras páginas web, utilizamos a tag <b>a</b>, que significa ancora, e o atributo <b>href</b> que é onde o link ou id (identificador de elemento), caso seja para abrir ou guiar para algo dentro do próprio site, será inserido.</p>
+        <p style="font-family:helvetica">Quando criamos uma página e para facilitar a navegação do usuário, utilizamos <b>target</b> <b>blank</b>, que irá abrir o link em outra aba, ou <b>self</b> que abrirá na mesma aba.</p>
+        <br>
+        <p style="font-family:helvetica">Este foi um pequeno resumo sobre o que foi apresentado na aula de Introdução ao HTMLda DIO.me.</p>
+        <a href="#Topo"> <small>Voltar</small></a>
+        <hr>
+    <tfoot> 
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank">https://www.w3schools.com/html/default.asp</a><br>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">https://developer.mozilla.org/pt-BR/docs/Web/HTML</a><br>
+        <a href="https://www.dio.me/" target="_blank">DIO.me</a>
+    </tfoot>
+
+</body>
+</html>
